@@ -1,0 +1,56 @@
+html,body,div{
+	width:100%;
+	height:100%;}
+.bigbox{
+	width:100%;
+	height:100%;
+	/*border:1px solid #F00;*/
+}
+.loginbox{
+    position: absolute;/*绝对定位 */
+	width:300px;
+	height:auto;
+	left:40%;
+	top:25%;
+	/*border:1px solid #F00;*/
+}
+.iframe{
+	position: absolute;/*绝对定位 */
+	width:100%;
+	height:90%;
+	top:10%;
+	/*border:1px solid #F00;*/
+	}
+.left{
+	position: absolute;/*绝对定位 */
+	width:35%;
+	height:95%;
+	top:5%;
+	margin-left:8%;
+	/*border:1px solid #F00;*/
+	}
+.right{
+	position: absolute;/*绝对定位 */
+	display: inline-block;
+	width:43%;
+	height:94%;
+	top:5%;
+	margin-left:45%;
+	/*border:1px solid #F00;*/
+	}
+/*不选择图片时不显示边框*/
+img[src=""],img:not([src]){
+      opacity:0;
+ }
+.img {
+	position: absolute;/*绝对定位 */
+	width:100%;
+	height:100%;
+}
+.delete {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	display: none;
